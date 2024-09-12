@@ -12,13 +12,16 @@ var myArray = [];
 
 var myFavColors = ['blue', 'red', 'green'];
 var numOfFavColors = 3; //If there are quotes it a text if not it is a number which can be manipulated with math.
-var hasGotFavColors = true; //boolean true of false or 0 or 1 or T or F (upper or lower case).  
+var myFavColors = ['blue', 'red', 'green'];
+      //Boolean is a true or false statement or yes no value (0is false 1 is true) can be upper or lower case =  T or t or F or f
+var hasGotFavColors = true; 
+  //Object is like an array but you can give it a name for every list item  
 var richObject = {
     firstName: 'Rich',
     lastName: 'Armstrong',
     favColors: ['blue', 'red', 'green'],
 
-    yearsAlive: 103,
+    yearsAlive: 103, //numbers do not have quotations
     isMale: true
 
 };
